@@ -6,7 +6,7 @@ def isLeapyear(year):
     return False
 
 
-year = 2012
+year = int(input("Enter a year:"))
 
 if isLeapyear(year):
   print("{} is a leap year.".format(year))
